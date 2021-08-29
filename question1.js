@@ -7,4 +7,5 @@
 
 const getRemainder = (a, b) => a % b;
 
-// console.log(getRemainder);
+const results = getRemainder(10, 5);
+console.log(results);
