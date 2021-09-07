@@ -45,7 +45,8 @@ async function getInfo() {
             break;
         }
 
-        gamesContainer.innerHTML += `
+        gamesContainer.innerHTML += 
+        `
         <div class="games">
         <p>Name: ${results[i].name}</div></p>
         <p>Rating: ${results[i].rating}</p>
